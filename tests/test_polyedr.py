@@ -189,4 +189,3 @@ class TestPolyedrSurfaceFar(unittest.TestCase):
 
     def test_area(self):
         self.assertAlmostEqual(self.polyedr.get_area(), 0.0)
-
